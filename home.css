@@ -1,0 +1,80 @@
+body {
+  margin:0;
+}
+header {
+  position: fixed;
+  width: 100%;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+  z-index: 5px;
+}
+
+#compnayName {
+  position: absolute;
+  color: #99ccff;
+  padding-left: 15px;
+  border:0px;
+  margin:0px;
+  padding-top:20px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  height:80px;
+}
+
+li {
+  margin-top: 17px;
+  float: right;
+}
+
+li a {
+  display: block;
+  color: #99ccff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.description {
+  top: 450px;
+  position: absolute;
+  text-align: center;
+}
+
+#ourMission {
+  font-size: 40px;
+}
+
+.missionDescription {
+  font-size: 20px;
+}
+
+#getInvolve {
+  font-size: 30px;
+}
+
+.organization {
+  float: left;
+  width: 50%;
+  background-color: #333333;
+  color: #99ccff;
+  padding-bottom: 100px;
+}
+
+.individual {
+  float: right;
+  width: 50%;
+  background-color: #99ccff;
+  color: #333333;
+  padding-bottom: 100px;
+}
